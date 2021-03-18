@@ -1,0 +1,59 @@
+body{
+    background-image: url("./heart.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 42rem;
+}
+
+.example-container {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    width: 18rem;
+    height: 18rem;
+    border: 2px solid black;
+}
+
+
+#background-color {
+    background-color: aquamarine;
+    opacity: 0.8;
+}
+
+#background-image {
+    background-image: url("./paper.jpg");
+}
+
+#background-image-repeat {
+    background-image: url("./heart.jpg");
+}
+
+#background-image-repeat-vertical {
+    background-image: url("./heart.jpg");
+    background-repeat: repeat-y;
+}
+
+#background-image-no-repeat {
+    background-image: url("./heart.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#padding-clip-container{
+    padding: 0.5rem;
+}
+
+#padding-clip {
+    height: 100%;
+    width: 100%;
+    background-color: cadetblue;
+    background-image: url("./paper.jpg");
+    background-clip: padding-box;
+}
